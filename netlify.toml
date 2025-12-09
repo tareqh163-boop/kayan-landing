@@ -1,0 +1,7 @@
+# Basic Netlify config (no build needed for this static site)
+[build]
+  publish = "."
+[[redirects]]
+  from = "/contact"
+  to = "/#contact"
+  status = 301
